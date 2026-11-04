@@ -1,0 +1,28 @@
+{
+  "sf_names": [
+    "Bel-Pao",
+    "CACTA",
+    "Copia",
+    "ERV",
+    "Gypsy",
+    "L1",
+    "Mariner",
+    "Mutator",
+    "PIF",
+    "Random",
+    "SINE",
+    "hAT"
+  ],
+  "order_names": [
+    "LINE",
+    "LTR",
+    "NONTE",
+    "SINE",
+    "TIR"
+  ],
+  "test": {
+    "val_loss": 1.3635963152704096,
+    "sf_f1": 0.7841532022956796,
+    "order_f1": 0.8640049796872387
+  }
+}
