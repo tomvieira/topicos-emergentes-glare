@@ -1,0 +1,21 @@
+{
+  "base_model": "InstaDeepAI/NTv3_8M_pre",
+  "max_length": 4096,
+  "hidden_dim": 512,
+  "head_dropout": 0.22320323256729352,
+  "batch_size": 8,
+  "max_epochs": 10,
+  "patience": 8,
+  "lambda_sf": 1.0,
+  "backbone_lr": 2.53032090218936e-05,
+  "head_lr": 0.00028944361832243895,
+  "weight_decay": 0.059703505248527425,
+  "warmup_fraction": 0.05,
+  "seed": 7,
+  "label_smoothing": 0.04654581174590394,
+  "class_weight_scheme": "sqrt_inv",
+  "grad_accum": 4,
+  "rc_augment": true,
+  "overlap": 0.5,
+  "dataset": "panteon-original"
+}
