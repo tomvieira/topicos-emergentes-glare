@@ -35,7 +35,7 @@ import numpy as np
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # ------------------------- DADOS -------------------------
-DATASET = "Arthropoda"
+DATASET = "PanTEon_Holdouts/Holdout_Arthropoda"
 # ajuste para sua estrutura
 DATA_ROOT = "./Data"
 TRAIN_DIR = os.path.join(DATA_ROOT, DATASET, "Train")
